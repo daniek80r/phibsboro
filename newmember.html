@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+
+        <title>New Members</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/external.css">
+        <script src="js_external.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="">
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/sign-in/">
+
+
+		<!--[if lt IE 9]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+        
+    </head>
+
+    <body>
+
+        <div id="header">
+
+            <div class="header-background">
+                <div class="header-text"><h1>Your book is here!</h1>
+                <h4>To view the list of books, tap any of the below categories</h4>
+                </div>
+            </div>
+        
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#headermenu"
+                        aria-controls="headermenu" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse align-items-center justify-content-between" id="headermenu">
+                    <a class="navbar-brand" href="index.html">Phibsboro library</a>
+                    <ul class="navbar-nav">
+						<li class="nav-item">
+							<a class="nav-link" href="index.html">Home</a>
+						</li>
+						<li class="nav-item">			 
+							<a class="nav-link" href="categories.html">Categories</a> 
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="about.html">About us</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="contact.html">Contact us</a> 
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="members.html">Members</a> 
+						</li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+            <main class="form-signin">
+                <form>
+                <h1 class="h3 mb-3 fw-normal">Please enter your registration details</h1>
+                <label for="inputEmail" class="visually-hidden">Email Address</label>
+                <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+                <label for="fName" class="visually-hidden">First name</label>
+                <input type="text" id="fName" class="form-control" placeholder="First name" required>
+
+
+
+                <label for="inputPassword" class="visually-hidden">Password</label>
+                <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+                <label for="inputPassword" class="visually-hidden">Confirm Password</label>
+                <input type="password" id="inputPassword" class="form-control" placeholder="Confirm password" required>
+                
+
+                <div class="checkbox mb-3">
+                    <label>
+                    <input type="checkbox" value="consent" required> I agree to the terms and conditions
+                    </label>
+                </div>
+
+                <button class="w-100 btn btn-lg btn-primary" type="submit">Sign In</button>
+                <a id="newUsers" class="w-100 btn btn-lg btn-secondary" href="newmember.html" role="button">New Users Click Here</a>
+                <p class="mt-5 mb-3 text-muted">&copy; 2020</p>
+                </form>
+            </main>
+
+    </body>
+</html>

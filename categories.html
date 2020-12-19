@@ -1,0 +1,776 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Phibsboro library</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Page is about p library "/>
+    <meta name="keywords"
+		content="course, science, culture discover, discover, learn, literature, art, knowledge cognition, new experience "/>
+
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon"/>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon"/>
+
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/categories.css">
+</head>
+<body class="categories">
+<div id="header">
+
+    <div class="header-background">
+        <div class="header-text"><p>"A room without books is like a body without a soul"</p>
+		<p>Cicero</p>
+		<br>
+		<p>To view the list of books, tap any of the below categories</p>
+		</div>
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#headermenu"
+                aria-controls="headermenu" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse align-items-center justify-content-between" id="headermenu">
+            <a class="navbar-brand" href="index.html">Phibsboro library</a>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="categories.html">Categories</a>
+                </li>
+                <li class="nav-item">
+					<a class="nav-link" href="about.html">About us</a>
+                </li>
+                <li class="nav-item">
+					<a class="nav-link" href="contact.html">Contact us</a>
+                </li>
+				<li class="nav-item">
+					<a class="nav-link" href="members.html">Members</a>
+                </li>
+            </ul>
+        </div>
+	</nav>
+
+</div>
+<div class="container-fluid">
+	<div id="content">
+		<div class="menu">
+			<ul>
+				<li><a href="#thriller" onclick="onClickMenuItem('thriller')">Thriller</a></li>
+				<li><a href="#biography" onclick="onClickMenuItem('biography')">Biography</a></li>
+				<li><a href="#fiction" onclick="onClickMenuItem('fiction')">Fiction</a></li>
+				<li><a href="#history" onclick="onClickMenuItem('history')">History</a></li>
+				<li><a href="#children" onclick="onClickMenuItem('children')">Children’s Book</a></li>
+				<li><a href="#romance" onclick="onClickMenuItem('romance')">Romance</a></li>
+				<li><a href="#crime" onclick="onClickMenuItem('crime')">Crime</a></li>
+				<li><a href="#nonfiction" onclick="onClickMenuItem('nonfiction')">Non-fiction</a></li>
+				<li><a href="#lifestyle" onclick="onClickMenuItem('lifestyle')">Lifestyle</a></li>
+			</ul>
+		</div>
+		<div id="sections">
+			<div class="withoutCategory">
+				<div class="img">
+				<p>Today's New Releases</p>
+					<div class="books">
+						<div class="img-cont">
+							<img src="img/books/romance/Kawaguchi.jpg" alt="This is picture: Before the Coffee Gets Cold"/>
+							<p>Tales from the Cafe: Before the Coffee Gets Cold</p>
+							<p>Toshikazu Kawaguchi </p>
+						</div>
+
+						<div class="img-cont">
+							<img src="img/books/crime/Hill.jpg" alt="This is picture: The Benefit of Hindsight"/>
+							<p>The Benefit of Hindsight </p>
+							<p>Susan Hill</p>
+						</div>
+
+						<div class="img-cont">
+							<img src="img/books/nonfiction/agent.jpg" alt="This is picture: Agent Sonya: Lover, Mother, Soldier, Spy "/>
+							<p>Agent Sonya: Lover, Mother, Soldier, Spy</p>
+							<p>Ben Macintyre</p>
+						</div>
+
+						<div class="img-cont">
+							<img src="img/books/lifestyle/Joy.jpg" alt="This is picture: Christmas with Kim-Joy "/>
+							<p>Christmas with Kim-Joy: A festive collection of edible cuteness</p>
+							<p>Kim-Joy</p>
+						</div>
+
+						<div class="img-cont">
+							<img src="img/books/fiction/Lucas.jpg" alt="This is picture: The Discomfort of Evening"/>
+							<p>The Discomfort of Evening </p>
+							<p>Marieke Lucas Rijneveld</p>
+						</div>
+
+						<div class="img-cont">
+							<img src="img/books/history/Barlow.jpg" alt="This is picture: Bond Cars"/>
+							<p>Bond Cars: The Definitive History</p>
+							<p>Jason Barlow </p>
+						</div>
+
+						<div class="img-cont">
+							<img src="img/books/thriller/collins.jpg" alt="This is picture: The Ballad Of Songbirds And Snakes"/>
+							<p>The Ballad Of Songbirds And Snakes</p>
+							<p>Suzanne Collins</p>
+						</div>
+
+						<div class="img-cont">
+							<img src="img/books/biography/Bower.jpg" alt="This is picture: Boris Johnson: The Gambler"/>
+							<p>Boris Johnson: The Gambler</p>
+							<p>Tom Bower</p>
+						</div>
+
+						<div class="img-cont">
+							<img src="img/books/fiction/Lefteri.jpg" alt="This is picture:The Beekeeper of Aleppo"/>
+							<p>The Beekeeper of Aleppo</p>
+							<p>Christy Lefteri</p>
+						</div>
+						<div class="img-cont">
+							<img src="img/books/nonfiction/Koval.jpg" alt="This is picture: Accidentally Wes Anderson"/>
+							<p>Accidentally Wes Anderson</p>
+							<p>Wally Koval</p>
+						</div>
+
+						<div class="img-cont">
+							<img src="img/books/history/Bunbury.jpg" alt="This is picture: Ireland's Forgotten Past"/>
+							<p>Ireland's Forgotten Past </p>
+							<p>Turtle Bunbury</p>
+						</div>
+
+						<div class="img-cont">
+							<img src="img/books/children/Fletcher2.jpg" alt="This is picture: The Christmasaurus and the Winter Witch"/>
+							<p>The Christmasaurus and the Winter Witch</p>
+							<p>Tom Fletcher</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="thriller">
+				<div class="img">
+					<p>Thrillers</p>
+					<div class="books">
+						<div class="img-cont">
+							<img src="img/books/thriller/Harris.jpg" alt="This is picture: The Silence of the Lambs" />
+							<p>The Silence of the Lambs</p>
+							<p>Thomas Harris </p>
+						</div>
+						<div class="img-cont">
+							<img src="img/books/thriller/Collins.jpg" alt="This is picture: The Ballad Of Songbirds And Snakes" />
+							<p>The Ballad Of Songbirds And Snakes</p>
+							<p>Suzanne Collins</p>
+						</div>
+						<div class="img-cont">
+							<img src="img/books/thriller/Ross.jpg" alt="This is picture: Cuthbert's Way: A DCI Ryan Mystery" />
+							<p>Cuthbert's Way: A DCI Ryan Mystery</p>
+							<p>LJ Ross</p>
+						</div>
+						<div class="img-cont">
+							<img src="img/books/thriller/Wise.jpg" alt="This is picture: Lie, Lie Again" />
+							<p>Lie, Lie Again</p>
+							<p>Stacy Wise</p>
+						</div>
+						<div class="img-cont">
+							<img src="img/books/thriller/Ellis.jpg" alt="This is picture: THEY DISAPPEARED" />
+							<p>They Disappeared</p>
+							<p>Joy Ellis</p>
+						</div>
+						<div class="img-cont">
+							<img src="img/books/thriller/Rijks.jpg" alt="This is picture: The Visitors" />
+							<p>The Visitors</p>
+							<p>Miranda Rijks</p>
+						</div>
+						<div class="img-cont">
+							<img src="img/books/thriller/Gray.jpg" alt="This is picture: Dark Highway" />
+							<p>Dark Highway</p>
+							<p>Lisa Gray</p>
+						</div>
+						<div class="img-cont">
+							<img src="img/books/thriller/Wilkinson.jpg" alt="This is picture: What My Husband Did" />
+							<p>What My Husband Did</p>
+							<p>Kerry Wilkinson</p>
+						</div>
+						<div class="img-cont">
+							<img src="img/books/thriller/Silverwood.jpg" alt="This is picture: The Money Tree Murders" />
+							<p>The Money Tree Murders</p>
+							<p>Roger Silverwood</p>
+						</div>
+						<div class="img-cont">
+							<img src="img/books/thriller/Smith.jpg" alt="This is picture: Run Rabbit Run" />
+							<p>The Money Tree Murders</p>
+							<p>Alex Smith</p>
+						</div>
+						<div class="img-cont">
+							<img src="img/books/thriller/North.jpg" alt="This is picture: The Whisper Man" />
+							<p>The Whisper Man</p>
+							<p>Alex North</p>
+						</div>
+						<div class="img-cont">
+							<img src="img/books/thriller/Kinsley.jpg" alt="This is picture: Found" />
+							<p>Found</p>
+							<p>Erin Kinsley</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="biography">
+				<div class="img">
+					<p>Biography</p>
+					<div class="books">
+						<div class="img-cont">
+							<img src="img/books/biography/Obama.jpg" alt="This is picture: Becoming" />
+							<p>Becoming</p>
+							<p>Michelle Obama </p>
+						</div>
+						<div class="img-cont">
+							<img src="img/books/biography/Rees.jpg" alt="This is picture: Let’s Do It" />
+							<p>Let’s Do It</p>
+							<p>Jasper Rees</p>
+						</div>
+						<div class="img-cont">
+							<img src="img/books/biography/Fury.jpg" alt="This is picture: Behind the Mask: My Autobiography" />
+							<p>Behind the Mask: My Autobiography</p>
+							<p>Tyson Fury</p>
+						</div>
+						<div class="img-cont">
+							<img src="img/books/biography/Smith.jpg" alt="This is picture: Rasputin" />
+							<p>Rasputin</p>
+							<p>Douglas Smith</p>
+						</div>
+						<div class="img-cont">
+							<img src="img/books/biography/Cox.jpg" alt="This is picture: Till the Cows Come Home" />
+							<p>Till the Cows Come Home</p>
+							<p>Sara Cox</p>
+						</div>
+						<div class="img-cont">
+							<img src="img/books/biography/Walters.jpg" alt="This is picture: That's Another Story" />
+							<p>That's Another Story</p>
+							<p>Julie Walters</p>
+						</div>
+						<div class="img-cont">
+							<img src="img/books/biography/Richard.jpg" alt="This is picture: The Dreamer" />
+							<p>The Dreamer</p>
+							<p>Cliff Richard</p>
+						</div>
+						<div class="img-cont">
+							<img src="img/books/biography/Bower.jpg" alt="This is picture: : Boris Johnson: The Gambler" />
+							<p>Boris Johnson: The Gambler</p>
+							<p>Tom Bower</p>
+						</div>
+						<div class="img-cont">
+							<img src="img/books/biography/McDonald.jpg" alt="This is picture: Riding the Waves: My Story" />
+							<p>Riding the Waves: My Story</p>
+							<p>Jane McDonald</p>
+						</div>
+						<div class="img-cont">
+							<img src="img/books/biography/Iperen.jpg" alt="This is picture: The Sisters of Auschwitz" />
+							<p>The Sisters of Auschwitz</p>
+							<p>Roxane van Iperen </p>
+						</div>
+						<div class="img-cont">
+							<img src="img/books/biography/Carraher.jpg" alt="This is picture: A VICTORIAN SOLDIER'S STORY: A short biography of an Irish soldier" />
+							<p>AVictorian Soldier's Story : A short biography of an Irish soldier  </p>
+							<p> James McCarraher</p>
+						</div>
+						<div class="img-cont">
+							<img src="img/books/biography/Parker.jpg" alt="This is picture: Sir Sean Connery - The Definitive Biograph" />
+							<p>Sir Sean Connery - The Definitive Biograph</p>
+							<p>John Parker </p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="fiction">
+				<div class="img">
+					<p>Fiction</p>
+					<div class="books">
+						<div class="img-cont">
+							<img src="img/books/fiction/Mengiste.jpg" alt="This is picture: The Shadow King" />
+							<p>The Shadow King</p>
+							<p>Maaza Mengiste</p>
+						</div>
+						<div class="img-cont">
+							<img src="img/books/fiction/Russell.jpg" alt="This is picture: My Dark Vanessa" />
+							<p>My Dark Vanessa</p>
+							<p>Kate Elizabeth Russell</p>
+						</div>
+						<div class="img-cont">
+							<img src="img/books/fiction/Millan.jpg" alt="This is picture: It's Not All Downhill from Here" />
+							<p>It's Not All Downhill from Here</p>
+							<p>Terry McMillan</p>
+						</div>
+						<div class="img-cont">
+							<img src="img/books/fiction/LiliKing.jpg" alt="This is picture: Writers and Lovers" />
+							<p>Writers and Lovers</p>
+							<p>Lily King</p>
+						</div>
+						<div class="img-cont">
+							<img src="img/books/fiction/Bennett.jpg" alt="This is picture: The Vanishing Half" />
+							<p>The Vanishing Half</p>
+							<p>Brit Bennett</p>
+						</div>
+						<div class="img-cont">
+							<img src="img/books/fiction/Cline.jpg" alt="This is picture: Ready Player Two" />
+							<p>Ready Player Two</p>
+							<p>Ernest Cline</p>
+						</div>
+						<div class="img-cont">
+							<img src="img/books/fiction/Mackintosh.jpg" alt="This is picture: Blue Ticket" />
+							<p>Blue Ticket</p>
+							<p>Sophie Mackintosh</p>
+						</div>
+						<div class="img-cont">
+							<img src="img/books/fiction/Farrell.jpg" alt="This is picture: Hamnet" />
+							<p>Hamnet</p>
+							<p>Maggie O'Farrell</p>
+						</div>
+						<div class="img-cont">
+							<img src="img/books/fiction/Lefteri.jpg"	alt="This is picture: The Beekeeper of Aleppo" />
+							<p>The Beekeeper of Aleppo</p>
+							<p>Christy Lefteri</p>
+						</div>
+						<div class="img-cont">
+							<img src="img/books/fiction/Sparks.jpg" alt="This is picture: The Return" />
+							<p>The Return</p>
+							<p>Nicholas Sparks</p>
+						</div>
+						<div class="img-cont">
+							<img src="img/books/fiction/Johns.jpg"	alt="This is picture: The Woman in the White Kimono" />
+							<p>The Woman in the White Kimono</p>
+							<p>Ana Johns  </p>
+						</div>
+						<div class="img-cont">
+							<img src="img/books/fiction/Collins.jpg" alt="The Betrayals" />
+							<p>The Betrayals</p>
+							<p>Bridget Collins</p>
+						</div>
+
+					</div>
+				</div>
+			</div>
+			<div class="history">
+				<div class="img">
+					<p>History</p>
+					<div class="books">
+						<div class="img-cont">
+							<img src="img/books/history/Wells.jpg" alt="This is picture: Between Five Eyes: 50 Years of Intelligence Sharing" />
+							<p>Between Five Eyes: 50 Years of Intelligence Sharing</p>
+							<p>Anthony R Wells</p>
+						</div>
+						<div class="img-cont">
+							<img src="img/books/history/Barlow.jpg" alt="This is picture: Bond Cars"/>
+							<p>Bond Cars: The Definitive History</p>
+							<p>Jason Barlow </p>
+						</div>
+						<div class="img-cont">
+							<img src="img/books/history/Bunbury.jpg" alt="This is picture: Ireland's Forgotten Past"/>
+							<p>Ireland's Forgotten Past</p>
+							<p>Turtle Bunbury</p>
+						</div>
+						<div class="img-cont">
+							<img src="img/books/history/Snow.jpg" alt="This is picture: History of the World Map by Map"/>
+							<p>History of the World Map by Map</p>
+							<p>Peter Snow</p>
+						</div>
+						<div class="img-cont">
+							<img src="img/books/history/Sterling.jpg" alt="This is picture: The Official History of Britain"/>
+							<p>The Official History of Britain</p>
+							<p>Boris Sterling</p>
+						</div>
+						<div class="img-cont">
+							<img src="img/books/history/Davis.jpg" alt="This is picture: History: From the Dawn of Civilization to the Present Day"/>
+							<p>History: From the Dawn of Civilization to the Present Day</p>
+							<p>Adam Hart-Davis</p>
+						</div>
+						<div class="img-cont">
+							<img src="img/books/history/Marr.jpg" alt="This is picture: A History of the World" />
+							<p>A History of the World</p>
+							<p>Andrew Marr</p>
+						</div>
+						<div class="img-cont">
+							<img src="img/books/history/Robinson.jpg" alt="This is picture: Battles that Changed History"/>
+							<p>Battles that Changed History</p>
+							<p>Tony Robinson</p>
+						</div>
+						<div class="img-cont">
+							<img src="img/books/history/Herodotus.jpg" alt="This is picture: Sapiens:The Histories"/>
+							<p>The Histories</p>
+							<p>Herodotus</p>
+						</div>
+
+						<div class="img-cont">
+							<img src="img/books/history/Harari.jpg" alt="This is picture:Sapiens: A Brief History of Humankind "/>
+							<p>Sapiens: A Brief History of Humankind</p>
+							<p>Yuval Noah Harari</p>
+						</div>
+						<div class="img-cont">
+							<img src="img/books/history/Morris.jpg" alt="This is picture: Yorkshire: A lyrical history of England's greatest county"/>
+							<p>Yorkshire: A lyrical history of England's greatest county</p>
+							<p>Richard Morris  </p>
+						</div>
+
+						<div class="img-cont">
+							<img src="img/books/history/Dartnell.jpg" alt="This is picture: Origins: How the Earth Shaped Human History "/>
+							<p>Origins: How the Earth Shaped Human History</p>
+							<p>Lewis Dartnell</p>
+						</div>
+
+					</div>
+				</div>
+			</div>
+			<div class="children">
+				<div class="img">
+					<p>Children's</p>
+					<div class="books">
+						<div class="img-cont">
+							<img src="img/books/children/Walliams.jpg" alt="This is picture: The Wonderful Things You Will Be"/>
+							<p>The Wonderful Things You Will Be</p>
+							<p>David Walliams</p>
+						</div>
+						<div class="img-cont">
+							<img src="img/books/children/Rowling.jpg" alt="This is picture: The Ickabog"/>
+							<p>The Ickabog</p>
+							<p>J.K. Rowling</p>
+						</div>
+						<div class="img-cont">
+							<img src="img/books/children/Miller.jpg" alt="This is picture: The Day I Fell Into a Fairytale"/>
+							<p>The Day I Fell Into a Fairytale</p>
+							<p>Ben Miller</p>
+						</div>
+						<div class="img-cont">
+							<img src="img/books/children/Fletcher.jpg" alt="This is picture: The Dinosaur that Pooped a Pirate" />
+							<p>The Dinosaur that Pooped a Pirate</p>
+							<p>Tom Fletcher</p>
+						</div>
+						<div class="img-cont">
+							<img src="img/books/children/Andreae.jpg" alt="This is picture: Giraffes Can't Dance"/>
+							<p>Giraffes Can't Dance</p>
+							<p>Giles Andreae</p>
+						</div>
+						<div class="img-cont">
+							<img src="img/books/children/Cooper.jpg" alt="This is picture: The Shortest Day"/>
+							<p>The Shortest Day</p>
+							<p>Susan Cooper</p>
+						</div>
+						<div class="img-cont">
+							<img src="img/books/children/Handford.jpg" alt="This is picture: Where's Wally? Santa Spectacular" />
+							<p>Where's Wally? Santa Spectacular</p>
+							<p>Martin Handford</p>
+						</div>
+						<div class="img-cont">
+							<img src="img/books/children/Huddy.jpg" alt="This is picture: The Christmas Eve Tree" />
+							<p>The Christmas Eve Tree</p>
+							<p>Delia Huddy</p>
+						</div>
+						<div class="img-cont">
+							<img src="img/books/children/Fletcher2.jpg" alt="This is picture: The Christmasaurus and the Winter Witch" />
+							<p>The Christmasaurus and the Winter Witch</p>
+							<p>Tom Fletcher</p>
+						</div>
+						<div class="img-cont">
+							<img src="img/books/children/Mackesy.jpg" alt="This is picture: The Boy, The Mole, The Fox and The Horse" />
+							<p>The Boy, The Mole, The Fox and The Horse</p>
+							<p>Charlie Mackesy  </p>
+						</div>
+						<div class="img-cont">
+							<img src="img/books/children/Walliams2.jpg" alt="This is picture: Code Name Bananas" />
+							<p>Code Name Bananas</p>
+							<p>David Walliams(Author), Tony Ross(Illustrator)</p>
+						</div>
+						<div class="img-cont">
+							<img src="img/books/children/Martin.jpg" alt="This is picture: The Wonderful Things You Will Be" />
+							<p>The Wonderful Things You Will Be</p>
+							<p>Emily Winfield Martin</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="nonfiction">
+				<div class="img">
+					<p>Non-fiction</p>
+					<div class="books">
+						<div class="img-cont">
+							<img src="img/books/nonfiction/agent.jpg"	alt="This is picture: Agent Sonya: Lover, Mother, Soldier, Spy " />
+							<p>Agent Sonya: Lover, Mother, Soldier, Spy</p>
+							<p>Ben Macintyre</p>
+						</div>
+						<div class="img-cont">
+							<img src="img/books/nonfiction/Irving.jpg"	alt="This is picture: Max the Miracle Dog" />
+							<p>Max the Miracle Dog</p>
+							<p>Kerry Irving</p>
+						</div>
+						<div class="img-cont">
+							<img src="img/books/nonfiction/Purja.jpg"	alt="This is picture: Beyond Possible: One Soldier, Fourteen Peaks ― My Life In The Death Zone" />
+							<p>Beyond Possible: One Soldier, Fourteen Peaks ― My Life In The Death Zone</p>
+							<p>Nimsdai Purja</p>
+						</div>
+						<div class="img-cont">
+							<img src="img/books/nonfiction/Sheldrake.jpg"	alt="This is picture: Entangled Life " />
+							<p>Entangled Life</p>
+							<p>Merlin Sheldrake </p>
+						</div>
+						<div class="img-cont">
+							<img src="img/books/nonfiction/Clarke.jpg"	alt="This is picture: I Wanna Be Yours" />
+							<p>I Wanna Be Yours</p>
+							<p>John Cooper Clarke  </p>
+						</div>
+						<div class="img-cont">
+							<img src="img/books/nonfiction/Bailey.jpg"	alt="This is picture: Bill Bailey's Remarkable Guide to Happiness " />
+							<p>Bill Bailey's Remarkable Guide to Happiness</p>
+							<p>Bill Bailey  </p>
+						</div>
+						<div class="img-cont">
+							<img src="img/books/nonfiction/Koval.jpg"	alt="This is picture: Accidentally Wes Anderson " />
+							<p>Accidentally Wes Anderson</p>
+							<p>Wally Koval</p>
+						</div>
+						<div class="img-cont">
+							<img src="img/books/nonfiction/Munroe.jpg"	alt="This is picture: What If? " />
+							<p>What If?</p>
+							<p>Randall Munroe  </p>
+						</div>
+						<div class="img-cont">
+							<img src="img/books/nonfiction/Haig.jpg"	alt="This is picture: The Midnight Library" />
+							<p>The Midnight Library</p>
+							<p>Matt Haig</p>
+						</div>
+						<div class="img-cont">
+							<img src="img/books/nonfiction/Liu.jpg"	alt="This is picture: The Three-Body Problem " />
+							<p>The Three-Body Problem</p>
+							<p>Cixin Liu</p>
+						</div>
+						<div class="img-cont">
+							<img src="img/books/nonfiction/Neill.jpg"	alt="This is picture: The Totally Awesome Book of Crazy Stories " />
+							<p>The Totally Awesome Book of Crazy Stories</p>
+							<p>Bill O'Neill</p>
+						</div>
+						<div class="img-cont">
+							<img src="img/books/nonfiction/Dean.jpg"	alt="This is picture: Nine Lives: My Time As MI6's Top Spy Inside al-Qaeda " />
+							<p>Nine Lives: My Time As MI6's Top Spy Inside al-Qaeda</p>
+							<p>Aimen Dean</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="romance">
+				<div class="img">
+					<p>Romance</p>
+					<div class="books">
+						<div class="img-cont">
+							<img src="img/books/romance/Morgan.jpg" alt="This is picture:One More For Christmas" />
+							<p>One More For Christmas</p>
+							<p>Sarah Morgan</p>
+						</div>
+						<div class="img-cont">
+							<img src="img/books/romance/Steel.jpg" alt="This is picture:Spy " />
+							<p>Spy</p>
+							<p>Danielle Steel</p>
+						</div>
+						<div class="img-cont">
+							<img src="img/books/romance/Johnson.jpg" alt="Maybe One Day" />
+							<p>Maybe One Day</p>
+							<p>Debbie Johnson</p>
+						</div>
+						<div class="img-cont">
+							<img src="img/books/romance/Cox.jpg" alt="This is picture:Two Sisters" />
+							<p>Two Sisters</p>
+							<p>Josephine Cox</p>
+						</div>
+						<div class="img-cont">
+							<img src="img/books/romance/Swain.jpg" alt="This is picture: The Secret Seaside Escape" />
+							<p>The Secret Seaside Escape</p>
+							<p>Heidi Swain</p>
+						</div>
+						<div class="img-cont">
+							<img src="img/books/romance/Carley.jpg" alt="This is picture: A Faithful Bride for the Wounded Sheriff" />
+							<p>A Faithful Bride for the Wounded Sheriff</p>
+							<p>Chloe Carley</p>
+						</div>
+						<div class="img-cont">
+							<img src="img/books/romance/Beke.jpg" alt="This is picture:Moonlight Over Mayfair" />
+							<p>Moonlight Over Mayfair</p>
+							<p>Anton Du Beke</p>
+						</div>
+						<div class="img-cont">
+							<img src="img/books/romance/Kelk.jpg" alt="This is picture:One in a Million" />
+							<p>One in a Million</p>
+							<p>Lindsey Kelk</p>
+						</div>
+						<div class="img-cont">
+							<img src="img/books/romance/Toffolo.jpg" alt="This is picture: Meet Me in London" />
+							<p>Meet Me in London</p>
+							<p>Georgia Toffolo</p>
+						</div>
+						<div class="img-cont">
+							<img src="img/books/romance/Day.jpg" alt="This is picture: Butterfly in Frost" />
+							<p>Butterfly in Frost</p>
+							<p>Sylvia Day </p>
+						</div>
+						<div class="img-cont">
+							<img src="img/books/romance/Dickson.jpg" alt="This is picture: The Outcast Girls" />
+							<p>The Outcast Girls</p>
+							<p>Shirley Dickson</p>
+						</div>
+						<div class="img-cont">
+							<img src="img/books/romance/Kawaguchi.jpg" alt="This is picture: Before the Coffee Gets Cold" />
+							<p>Tales from the Cafe: Before the Coffee Gets Cold</p>
+							<p>Toshikazu Kawaguchi </p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="crime">
+				<div class="img">
+					<p>Crime</p>
+					<div class="books">
+						<div class="img-cont">
+							<img src="img/books/crime/Osman.jpg"	alt="The Thursday Murder Club" />
+							<p>The Thursday Murder Club</p>
+							<p>Richard Osman</p>
+						</div>
+						<div class="img-cont">
+							<img src="img/books/crime/Jewell.jpg"	alt="The Family Upstairs" />
+							<p>The Family Upstairs</p>
+							<p>Lisa Jewell</p>
+						</div>
+						<div class="img-cont">
+							<img src="img/books/crime/May.jpg"	alt="This is picture:Lockdown" />
+							<p>Lockdown</p>
+							<p>Peter May</p>
+						</div>
+						<div class="img-cont">
+							<img src="img/books/crime/Shepherd.jpg"	alt="This is picture: Unnatural Causes" />
+							<p>Unnatural Causes</p>
+							<p>Richard Shepherd</p>
+						</div>
+						<div class="img-cont">
+							<img src="img/books/crime/James.jpg"	alt="This is picture: The Crime Book" />
+							<p>The Crime Book</p>
+							<p>Peter James</p>
+						</div>
+						<div class="img-cont">
+							<img src="img/books/crime/Foley.jpg"	alt="This is picture: The Guest List" />
+							<p>The Guest List</p>
+							<p>Lucy Foley</p>
+						</div>
+						<div class="img-cont">
+							<img src="img/books/crime/Grisham.jpg"	alt="This is picture: A Time For Mercy" />
+							<p>A Time For Mercy</p>
+							<p>John Grisham</p>
+						</div>
+						<div class="img-cont">
+							<img src="img/books/crime/Casey.jpg"	alt="This is picture: The Cutting Place" />
+							<p>The Cutting Place</p>
+							<p>Jane Casey</p>
+						</div>
+						<div class="img-cont">
+							<img src="img/books/crime/Moloney.jpg"	alt="This is picture: Crime In The Book Club" />
+							<p>Crime In The Book Club</p>
+							<p>Catherine Moloney</p>
+						</div>
+						<div class="img-cont">
+							<img src="img/books/crime/Patterson.jpg"	alt="This is picture: The Inn" />
+							<p>The Inn</p>
+							<p>James Patterson</p>
+						</div>
+						<div class="img-cont">
+							<img src="img/books/crime/Durrant.jpg"	alt="This is picture: The Guilty Man" />
+							<p>The Guilty Man</p>
+							<p>Helen Durrant</p>
+						</div>
+						<div class="img-cont">
+							<img src="img/books/crime/Hill.jpg"	alt="This is picture: The Benefit of Hindsight" />
+							<p>The Benefit of Hindsight</p>
+							<p>Susan Hill</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="lifestyle">
+				<div class="img">
+					<p>Life style</p>
+					<div class="books">
+						<div class="img-cont">
+							<img src="img/books/lifestyle/Dunne.jpg" alt="This is picture: Lagom"/>
+							<p>Lagom</p>
+							<p>Linnea Dunne</p>
+						</div>
+						<div class="img-cont">
+							<img src="img/books/lifestyle/Fields.jpg" alt="This is picture:The Meal Prep Code"/>
+							<p>The Meal Prep Code</p>
+							<p>Kate Fields</p>
+						</div>
+						<div class="img-cont">
+							<img src="img/books/lifestyle/Kempton.jpg" alt="This is picture:Wabi Sabi"/>
+							<p>Wabi Sabi</p>
+							<p>Beth Kempton</p>
+						</div>
+						<div class="img-cont">
+							<img src="img/books/lifestyle/Wiking.jpg" alt="This is picture: The Little Book of Hygge"/>
+							<p>The Little Book of Hygge</p>
+							<p>Meik Wiking</p>
+						</div>
+						<div class="img-cont">
+							<img src="img/books/lifestyle/Watson.jpg" alt="This is picture: Awakenings"/>
+							<p>Awakenings</p>
+							<p>Lucy Watson</p>
+						</div>
+						<div class="img-cont">
+							<img src="img/books/lifestyle/Wrigley.jpg" alt="This is picture: Stained Glass Projects for Beginners"/>
+							<p>Stained Glass Projects for Beginners</p>
+							<p>Lynette Wrigley</p>
+						</div>
+						<div class="img-cont">
+							<img src="img/books/lifestyle/Cortright.jpg" alt="This is picture: The Neurogenesis Diet and Lifestyle"/>
+							<p>The Neurogenesis Diet and Lifestyle</p>
+							<p>Brant Cortright </p>
+						</div>
+						<div class="img-cont">
+							<img src="img/books/lifestyle/Jackson.jpg" alt="This is picture: Christmas with Kim-Joy : Dive Atlas of the World"/>
+							<p>Dive Atlas of the World</p>
+							<p>Jack Jackson</p>
+						</div>
+						<div class="img-cont">
+							<img src="img/books/lifestyle/Squire.jpg" alt="This is picture: Self-Sufficiency"/>
+							<p>Self-Sufficiency</p>
+							<p>David Squire</p>
+						</div>
+						<div class="img-cont">
+							<img src="img/books/lifestyle/Sivananda.jpg" alt="This is picture: Yoga Your Home Practice Companion"/>
+							<p>Yoga Your Home Practice Companion</p>
+							<p>Sivananda Yoga Vedanta Centre</p>
+						</div>
+						<div class="img-cont">
+							<img src="img/books/lifestyle/Joy.jpg" alt="This is picture: Christmas with Kim-Joy : A festive collection of edible cuteness"/>
+							<p>Christmas with Kim-Joy : A festive collection of edible cuteness</p>
+							<p>Kim-Joy</p>
+						</div>
+						<div class="img-cont">
+							<img src="img/books/lifestyle/Wiking2.jpg" alt="This is picture: Christmas with Kim-Joy : The Little Book of Lykke"/>
+							<p>The Little Book of Lykke</p>
+							<p>Meik Wiking</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div id="footer">Phibsboro library &copy; 2020<br/>Thank you for your visit
+	<p>
+		<a href="http://jigsaw.w3.org/css-validator/check/referer">
+			<img style="border:0;width:66px;height:25px;float:left;"
+			src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+			alt="Valid CSS!" />
+		</a>
+	</p>
+</div>
+<script src="js/jquery.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/script.js"></script>
+<script src="js/categories.js"></script>
+</body>
+</html>
